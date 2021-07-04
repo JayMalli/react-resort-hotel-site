@@ -56,7 +56,7 @@ const SingleRoom = () => {
           <article className="info">
             <h3>info</h3>
             <h6>Price : ${price}</h6>
-            <h6>Size : ${size} SQFT</h6>
+            <h6>Size : {size} SQFT</h6>
             <h6>
               Max Capacity :
               {capacity > 1 ? `${capacity} people` : `${capacity} person`}
